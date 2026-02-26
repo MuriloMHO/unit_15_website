@@ -1,14 +1,38 @@
 header {
     width: 100vw;
     height: 60px;
-    background-color: var(--periwinkle_blue);
-    box-shadow: 1px 1px black;
+    background-color: var(--base_colour);
+    border: 0px 1px solid var(--deep_forest);
+    display: flex;
+    align-items: center;
+}
+
+.div_header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+}
+
+.a_header {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.h1_header {
+    color: var(--ghost-white);
+    text-indent: 10px;
+    font-size: 45px;
+    display: inline;
 }
 
 nav {
     width: 100vw;
     height: 40px;
-    background-color: var(--soft-sky-blue);
+    background-color: var(--soft_sage);
+    border: 1px solid var(--deep_forest); 
 }
 
 main {
@@ -29,5 +53,11 @@ section {
 footer {
     width: 100vw;
     height: 100px;
-    background-color: var(--periwinkle_blue);
+    background-color: var(--base_colour);
+    border: 1px solid var(--deep_forest);
+}
+
+.logo {
+    width: 60px;
+    display: inline;
 }
