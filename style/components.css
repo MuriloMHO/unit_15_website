@@ -137,7 +137,7 @@ Modifies just the base Nav that is used accross all pages, does not include cust
     border: 1px solid var(--deep_forest);
     display: none;
     width: 150px;
-    height: 230px;
+    height: fit-content;
     z-index: 1;
     position: absolute;
 }
@@ -215,6 +215,7 @@ Modifies just the base Footer that is used accross all pages, does not include c
 }
 
 .li_footer_title {
+    margin-bottom: 10px;
     font-size: 20px;
     font-weight: bold;
 }
