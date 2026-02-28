@@ -1,0 +1,28 @@
+@media screen and (max-width: 767px) {
+    .ul_nav{
+        display: none;
+    }
+
+    .a_home {
+        display: none;
+    }
+
+    .dropdown {
+        margin-right: auto;
+    }
+
+    .base_footer {
+        flex-direction: column;
+    }
+
+    .ul_footer {
+        margin-top: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .a_home_nav {
+        display: flex;
+    }
+}
