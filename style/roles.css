@@ -1,0 +1,30 @@
+#roles_main {
+    padding: 10px;
+}
+
+#roles_main a {
+    text-decoration: none;
+    width: 40%;
+    min-width: fit-content;
+}
+
+.role {
+    background-color: var(--base_colour);
+    margin-top: 25px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid var(--pine_night);
+}
+
+.role:hover {
+    background-color: var(--soft_sage);
+}
+
+.role h2, .role p{
+    margin-top: 0px;
+    color: var(--ghost_white);
+}
+
+.role p {
+    margin: 10px 0px;
+}
