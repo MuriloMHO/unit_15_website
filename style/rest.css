@@ -15,6 +15,6 @@ body {
 }
 
 h1, h2 {
-    font-family: "Merriweather";
+    font-family: "Merriweather", sans-serif;
     font-weight: bold;
 }
