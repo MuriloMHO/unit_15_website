@@ -2,7 +2,7 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    font-family: var(--general-font);
+    font-family: "Montserrat";
 }
 
 html {
@@ -12,4 +12,9 @@ html {
 body {
     height: 100%;
     background-color: var(--ghost_white);
+}
+
+h1, h2 {
+    font-family: "Merriweather";
+    font-weight: bold;
 }

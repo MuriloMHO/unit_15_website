@@ -31,6 +31,7 @@
 
 #btn_roles {
     font-size: max(16px, 1.5vw);
+    font-family: "Merriweather";
     width: 15%;
     min-width: fit-content;
     height: 50px;
