@@ -90,6 +90,7 @@ Modifies just the base Nav that is used accross all pages, does not include cust
 .li_nav {
     height: 100%;
     padding: 0px 5px;
+    margin: 0px;
     list-style-type: none;
     display: flex;
     align-items: center;
@@ -270,4 +271,5 @@ Modifies just the base Footer that is used accross all pages, does not include c
 
 .a_footer:hover {
     text-decoration: underline;
+    text-decoration-color: var(--ghost_white);
 }
