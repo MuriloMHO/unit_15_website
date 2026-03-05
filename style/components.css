@@ -262,6 +262,7 @@ Modifies just the base Footer that is used accross all pages, does not include c
     margin-bottom: 10px;
     font-size: max(25px, 1.5vw);
     font-weight: bold;
+    font-family: "Merriweather";
 }
 
 .a_footer {
@@ -270,4 +271,5 @@ Modifies just the base Footer that is used accross all pages, does not include c
 
 .a_footer:hover {
     text-decoration: underline;
+    text-decoration-color: var(--ghost_white);
 }
